@@ -43,6 +43,7 @@
 						:class="[
 							'mx-4',
 							'md:ml-8 md:mx-0',
+							'lg:ml-16',
 						]"
 					>
 						<a
