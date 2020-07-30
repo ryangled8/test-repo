@@ -1,5 +1,6 @@
 <?php
 return [
+	'brand' => 'Brand Name',
 	'form' => [
 		'cta' => [
 			'submit' => 'Send message',

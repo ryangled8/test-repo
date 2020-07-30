@@ -46,6 +46,40 @@ class PageDefaultsViewComposer extends BaseViewComposer
             'links' => [
                 'home' => route('templates.show', 'home/index'),
             ],
+            'site_header' => [
+                'home' => route('templates.show', 'home/index'),
+                'nav' => [
+                    [
+                        'title' => 'The collection',
+                        'url' => route('templates.show', 'collection/detail'),
+                    ],
+                    [
+                        'title' => 'Our story',
+                        'url' => route('templates.show', 'our-story/detail'),
+                    ],
+                ],
+            ],
+            'site_footer' => [
+                'title' => 'Shop',
+                'nav' => [
+                    [
+                        'title' => 'The collection',
+                        'url' => route('templates.show', 'collection/detail'),
+                    ],
+                    [
+                        'title' => 'Contact us',
+                        'url' => route('templates.show', 'contact/detail'),
+                    ],
+                    [
+                        'title' => 'Harrison Spinks',
+                        'url' => route('templates.show', 'https://www.harrisonspinks.co.uk'),
+                    ],
+                    [
+                        'title' => 'Terms',
+                        'url' => route('templates.show', 'terms/detail'),
+                    ],
+                ],
+            ],
         ];
     }
 }
