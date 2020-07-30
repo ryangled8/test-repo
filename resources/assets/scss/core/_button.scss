@@ -6,13 +6,20 @@ button {
 
 .e-button {
 	@apply
+		inline-block
 		relative
-		p-4
-		bg-brand-red
+		py-6
+		bg-brand-green
 		text-white
-		font-body
+		font-heading
 		text-base
 		font-normal
 		leading-none
-		no-underline;
+		no-underline
+		rounded-sm;
+	
+	&--secondary {
+		@apply
+			bg-brand-black;
+	}
 }

@@ -34,8 +34,8 @@ module.exports = {
 			...colors,
 		},
 		fontFamily: {
-			body: ['custom-body', 'Helvetica', 'sans-serif'],
-			heading: ['custom-heading', 'Georgia', 'serif'],
+			body: ['Helvetica', 'Helvetica', 'sans-serif'],
+			heading: ['Viaoda', 'Georgia', 'serif'],
 			system: ['system-ui', 'sans-serif'],
 		},
 		boxShadow: {

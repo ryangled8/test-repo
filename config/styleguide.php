@@ -133,6 +133,31 @@ return [
 			'heading' => 'Blocks',
 			'copy' => 'More complex components',
 			'blocks' => [
+				'button' => [
+					'heading' => 'Button',
+					'previews' => [
+						[
+							'component' => [
+								'name' => 'EButton',
+								'type' => 'vue',
+							],
+							'autoload' => true,
+							'container' => true,
+							'attributes' => [
+								[
+									'title' => 'Book now',
+									'url' => '/',
+									'icon' => 'chevron-right',
+								],
+								[
+									'title' => 'Secondary',
+									'url' => '/',
+									'type' => 'secondary',
+								],
+							],
+						],
+					],
+				],
 				'breadcrumb' => [
 					'heading' => 'Breadcrumb',
 					'previews' => [
