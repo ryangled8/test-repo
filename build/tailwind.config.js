@@ -83,10 +83,11 @@ module.exports = {
 			maxWidth: {
 				container: relative(1400),
 				copy: '35em',
+				logo: relative(65),
 			},
 			padding: {
 				full: '100%',
-				logo: ratio(300, 87),
+				logo: ratio(301, 301),
 				'9/16': ratio(16, 9),
 				'3/4': ratio(4, 3),
 				'4/3': ratio(3, 4),
