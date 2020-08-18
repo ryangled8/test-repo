@@ -54,6 +54,13 @@ new Vue({
 		// ExampleStyleguideOnlyComponent,
 	},
 
+	data() {
+		return {
+			overlay: false,
+			header: null,
+		};
+	},
+
 	mounted() {
 		svg4everybody();
 	},

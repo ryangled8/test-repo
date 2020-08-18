@@ -18,7 +18,13 @@
 		@include('layouts/partials/outdated-browser')
 	@show
 
-	<div id="app" v-cloak>
+	<div
+		id="app"
+		:class="{
+			'max-h-screen h-full overflow-hidden': $root.$data.overlay,
+		}"
+		v-cloak
+	>
 		@yield('app')
 	</div>
 

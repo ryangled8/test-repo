@@ -9,7 +9,8 @@
 	},
 	"colors": {
 		"brand": {
-			"green": "#304d55",
+			"blue-light": "#d6e4e4",
+			"blue-dark": "#06041d",
 			"black": "#1e1a19",
 			"white": "#eae1d9"
 		},
@@ -69,6 +70,7 @@
 	"z-indexes": [
 		"accessibility-skip-links",
 		"outdated-browser",
+		"site-overlay",
 		"site-header",
 		"site-content",
 		"site-footer"

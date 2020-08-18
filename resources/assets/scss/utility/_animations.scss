@@ -6,3 +6,24 @@
 		transform: rotate(360deg);
 	}
 }
+
+.e-slide-fade {
+	&-enter,
+	&-leave-to {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+
+	&-enter-active,
+	&-leave-active {
+		transition:
+			opacity .25s linear,
+			transform .25s linear;
+	}
+	
+	&-enter-to,
+	&-leave {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

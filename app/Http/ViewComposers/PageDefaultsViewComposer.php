@@ -50,53 +50,62 @@ class PageDefaultsViewComposer extends BaseViewComposer
 				'home' => route('templates.show', 'home/index'),
 				'nav' => [
 					[
-						'title' => 'Food',
+						'title' => 'Reservations',
 						'url' => route('templates.show', 'food'),
 					],
 					[
-						'title' => 'Drink',
+						'title' => '0113 123 123',
+						'url' => route('templates.show', 'drink'),
+					],
+				],
+				'secondary-nav' => [
+					[
+						'title' => 'Our menus',
+						'url' => route('templates.show', 'food'),
+					],
+					[
+						'title' => 'Events',
 						'url' => route('templates.show', 'drink'),
 					],
 					[
-						'title' => 'Book',
-						'url' => route('templates.show', 'book'),
+						'title' => 'Reservations',
+						'url' => route('templates.show', 'food'),
 					],
 					[
 						'title' => 'Contact',
-						'url' => route('templates.show', 'contact'),
+						'url' => route('templates.show', 'drink'),
 					],
 				],
-				'bannerHeading' => 'Welcome to <br> The Black Horse',
-				'bannerSubHeading' => 'Supporting the local suppliers by using their high qulaity, fresh produce.',
-				'bannerImage' => [
-					// 'src' => 'https://images.pexels.com/photos/704982/pexels-photo-704982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-					'src' => 'https://images.pexels.com/photos/1528013/pexels-photo-1528013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-					'url' => '',
+				'nav-address' => [
+					[
+						'title' => 'Company name',
+					],
+					[
+						'title' => 'Room 101, Floor 2',
+					],
+					[
+						'title' => 'Leeds',
+					],
+					[
+						'title' => 'LS6 123',
+					],
+					[
+						'title' => '0113 123 123',
+					],
 				],
-				// 'banner' => [
-				// 	[
-				// 		'image' => [
-				// 			'src' => 'https://dummyimage.com/600x600',
-				// 			'alt' => 'Alt text',
-				// 		],
-				// 		'title' => 'Welcome to The Black horse',
-				// 		'subTitle' => 'Sourcing and preparing the finest local products.',
-				// 	],
-				// ],
 			],
 			'site_footer' => [
-				'title' => 'Shop',
 				'nav' => [
 					[
-						'title' => 'Food',
+						'title' => 'Shop',
 						'url' => route('templates.show', 'food'),
 					],
 					[
-						'title' => 'Drink',
+						'title' => 'News',
 						'url' => route('templates.show', 'drink'),
 					],
 					[
-						'title' => 'Book',
+						'title' => 'About',
 						'url' => route('templates.show', 'book'),
 					],
 					[

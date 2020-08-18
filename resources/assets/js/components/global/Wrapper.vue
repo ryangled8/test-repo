@@ -1,5 +1,10 @@
 <template>
 	<div>
+		<overlay
+			v-if="$root.$data.overlay"
+			v-bind="$props.siteHeader"
+		/>
+
 		<site-header
 			v-bind="$props.siteHeader"
 		/>
@@ -13,11 +18,13 @@
 <script>
 	import SiteHeader from './SiteHeader';
 	import SiteFooter from './SiteFooter';
+	import Overlay from './Overlay';
 
 	export default {
 		components: {
 			SiteHeader,
 			SiteFooter,
+			Overlay,
 		},
 
 		props: {
