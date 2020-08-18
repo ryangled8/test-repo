@@ -9,6 +9,17 @@
 			v-bind="$props.siteHeader"
 		/>
 
+		<main
+			:class="[
+				'flex-auto z-site-content',
+			]"
+		>
+			<page-builder
+				v-if="$props.pageBuilder.length"
+				:components="$props.pageBuilder"
+			/>
+		</main>
+
 		<site-footer
 			v-bind="$props.siteFooter"
 		/>
@@ -19,12 +30,14 @@
 	import SiteHeader from './SiteHeader';
 	import SiteFooter from './SiteFooter';
 	import Overlay from './Overlay';
+	import PageBuilder from './PageBuilder';
 
 	export default {
 		components: {
 			SiteHeader,
 			SiteFooter,
 			Overlay,
+			PageBuilder,
 		},
 
 		props: {
@@ -32,8 +45,14 @@
 				type: Object,
 				default: null,
 			},
+
 			siteFooter: {
 				type: Object,
+				default: null,
+			},
+
+			pageBuilder: {
+				type: Array,
 				default: null,
 			},
 		},

@@ -44,6 +44,7 @@ module.exports = {
 			outline: `0 0 3px ${colors.blue}, 0 0 6px ${colors.blue}, 0 0 9px ${colors.blue}`,
 		},
 		fontSize: {
+			xxs: relative(10),
 			xs: relative(12),
 			sm: relative(14),
 			base: relative(16),
