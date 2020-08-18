@@ -16,6 +16,19 @@
 					],
 				],
 			],
+			[
+				'type' => 'ImageGallery',
+				'value' => [
+					'items' => [
+						[
+							'image' => [
+								'src' => 'https://via.placeholder.com/1500x800',
+								'alt' => 'alt text',
+							],
+						],
+					],
+				],
+			],
 		],
 	],
 ])

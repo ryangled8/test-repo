@@ -26,10 +26,12 @@
 	import upperFirst from 'lodash/upperFirst';
 
 	import Intro from '../builder/Intro';
+	import ImageGallery from '../builder/ImageGallery';
 
 	export default {
 		components: {
 			Intro,
+			ImageGallery,
 		},
 
 		props: {
