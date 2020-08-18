@@ -27,11 +27,13 @@
 
 	import Intro from '../builder/Intro';
 	import ImageGallery from '../builder/ImageGallery';
+	import SplitText from '../builder/SplitText';
 
 	export default {
 		components: {
 			Intro,
 			ImageGallery,
+			SplitText,
 		},
 
 		props: {

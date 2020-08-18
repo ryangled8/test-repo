@@ -29,6 +29,20 @@
 					],
 				],
 			],
+			[
+				'type' => 'SplitText',
+				'value' => [
+					'title' => '"Quos quaerat alias labore delectus minus excepturi totam veniam laborum dolore consectetur culpa, nam eius. Tempore modi"',
+					'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quaerat alias labore delectus minus excepturi totam veniam laborum dolore consectetur culpa, nam eius. Tempore modi deleniti earum, sint laudantium molestias excepturi totam veniam laborum dolore consectetur culpa, nam eius. Tempore modi deleniti earum, sint laudantium molestias adipisicing elit. Quos quaerat alias labore delectus minus excepturi totam veniam laborum dolore consectetur culpa, nam eius.<br><br>
+					Sit amet consectetur adipisicing elit. Quos quaerat alias labore delectus minus, nam eius. Tempore modi deleniti earum, sint laudantium molestias.
+					<br><br>
+					Excepturi totam veniam laborum dolore consectetur culpa, nam eius. Tempore modi deleniti earum, sint laudantium molestias adipisicing elit. Quos quaerat alias labore delectus minus excepturi totam veniam laborum dolore consectetur culpa, nam eius.',
+					'link' => [
+						'title' => 'Read more',
+						'url' => '/',
+					],
+				],
+			],
 		],
 	],
 ])

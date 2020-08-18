@@ -19,11 +19,6 @@
 <script>
 	export default {
 		props: {
-			test: {
-				type: String,
-				default: null,
-			},
-
 			items: {
 				type: Array,
 				default: null,
