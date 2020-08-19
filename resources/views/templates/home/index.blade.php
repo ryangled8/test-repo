@@ -5,8 +5,8 @@
 			[
 				'type' => 'intro',
 				'value' => [
-					'title' => 'Welcoming you back to our home.',
-					'subtitle' => 'Read how we have ensured maximum cleanliness.',
+					'title' => 'Welcoming you back to our home',
+					'subtitle' => 'Read how we have ensured maximum cleanliness',
 					'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quaerat alias labore delectus minus excepturi totam veniam laborum dolore consectetur culpa, nam eius. Tempore modi deleniti earum, sint laudantium molestias.',
 					'author' => 'Ryan Gledhill, Owner',
 					'date' => '10 August 2020',
@@ -40,6 +40,30 @@
 					'link' => [
 						'title' => 'Read more',
 						'url' => '/',
+					],
+				],
+			],
+			[
+				'type' => 'SplitImage',
+				'value' => [
+					'title' => 'A beautifully restored building in the countryside',
+					'subtitle' => 'escape to the countryside',
+					'tag' => 'featured property',
+					'cta-gallery' => [
+						'title' => 'View gallery',
+						'url' => '/',
+					],
+					'cta-book' => [
+						'title' => 'Book your stay',
+						'url' => '/',
+					],
+					'left-image' => [
+						'src' => 'https://via.placeholder.com/800x600',
+						'alt' => 'alt text',
+					],
+					'right-image' => [
+						'src' => 'https://via.placeholder.com/600x600',
+						'alt' => 'alt text',
 					],
 				],
 			],

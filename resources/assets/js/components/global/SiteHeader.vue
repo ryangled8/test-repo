@@ -4,7 +4,6 @@
 			:class="[
 				'w-full px-10 pt-8',
 				'flex justify-between mx-auto items-center',
-				'lg:max-w-screen-xl',
 			]"
 		>
 			<div

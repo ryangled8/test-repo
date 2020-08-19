@@ -33,6 +33,14 @@
 					]"
 					v-html="$props.content"
 				/>
+
+				<a
+					:class="[
+						'text-xs text-brand-blue font-bold',
+					]"
+					:href="$props.link.url"
+					v-text="$props.link.title"
+				/>
 			</aside>
 		</section>
 	</div>
@@ -48,6 +56,11 @@
 
 			content: {
 				type: String,
+				default: null,
+			},
+
+			link: {
+				type: Object,
 				default: null,
 			},
 		},
