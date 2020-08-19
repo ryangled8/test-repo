@@ -152,6 +152,33 @@
 					],
 				],
 			],
+			[
+				'type' => 'ImageGrid',
+				'value' => [
+					'items-left' => [
+						[
+							'image' => [
+								'src' => 'https://via.placeholder.com/450x450',
+								'alt' => 'image alt text',
+							],
+						],
+						[
+							'image' => [
+								'src' => 'https://via.placeholder.com/450x450',
+								'alt' => 'image alt text',
+							],
+						],
+					],
+					'items-right' => [
+						[
+							'image' => [
+								'src' => 'https://via.placeholder.com/450x450',
+								'alt' => 'image alt text',
+							],
+						],
+					],
+				],
+			],
 		],
 	],
 ])

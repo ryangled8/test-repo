@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<section class="e-container my-32">
+	<div class="e-container">
+		<section class="my-32">
 			<div class="w-3/4 mx-auto">
 				<h1
 					:class="[

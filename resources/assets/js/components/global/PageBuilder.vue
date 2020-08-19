@@ -30,6 +30,7 @@
 	import SplitText from '../builder/SplitText';
 	import SplitImage from '../builder/SplitImage';
 	import Amenities from '../builder/Amenities';
+	import ImageGrid from '../builder/ImageGrid';
 
 	export default {
 		components: {
@@ -38,6 +39,7 @@
 			SplitText,
 			SplitImage,
 			Amenities,
+			ImageGrid,
 		},
 
 		props: {
