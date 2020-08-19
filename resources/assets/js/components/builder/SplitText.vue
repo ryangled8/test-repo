@@ -15,7 +15,7 @@
 			>
 				<h1
 					:class="[
-						'font-bold text-2xl text-brand-blue',
+						'font-bold text-2xl text-brand-primary',
 						'md:w-full',
 					]"
 					v-text="$props.title"
@@ -36,7 +36,7 @@
 
 				<a
 					:class="[
-						'text-xs text-brand-blue font-bold',
+						'text-xs text-brand-primary font-bold',
 					]"
 					:href="$props.link.url"
 					v-text="$props.link.title"

@@ -50,7 +50,7 @@ class PageDefaultsViewComposer extends BaseViewComposer
 				'home' => route('templates.show', 'home/index'),
 				'nav' => [
 					[
-						'title' => 'Reservations',
+						'title' => 'Book your stay',
 						'url' => route('templates.show', 'food'),
 					],
 					[
@@ -60,19 +60,19 @@ class PageDefaultsViewComposer extends BaseViewComposer
 				],
 				'secondary-nav' => [
 					[
-						'title' => 'Our menus',
+						'title' => 'Book your stay',
 						'url' => route('templates.show', 'food'),
 					],
 					[
-						'title' => 'Events',
+						'title' => 'Our home',
 						'url' => route('templates.show', 'drink'),
 					],
 					[
-						'title' => 'Reservations',
+						'title' => 'Our story',
 						'url' => route('templates.show', 'food'),
 					],
 					[
-						'title' => 'Contact',
+						'title' => 'Contact us',
 						'url' => route('templates.show', 'drink'),
 					],
 				],
@@ -81,13 +81,13 @@ class PageDefaultsViewComposer extends BaseViewComposer
 						'title' => 'Company name',
 					],
 					[
-						'title' => 'Room 101, Floor 2',
+						'title' => 'Greater London',
 					],
 					[
-						'title' => 'Leeds',
+						'title' => 'England, United Kingdom',
 					],
 					[
-						'title' => 'LS6 123',
+						'title' => 'OX6 123',
 					],
 					[
 						'title' => '0113 123 123',

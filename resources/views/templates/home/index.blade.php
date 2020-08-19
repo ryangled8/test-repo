@@ -67,6 +67,91 @@
 					],
 				],
 			],
+			[
+				'type' => 'Amenities',
+				'value' => [
+					'title' => 'Amenities',
+					'items' => [
+						[
+							'title' => 'Lift',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/899/899061.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Wifi',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/1076/1076745.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Kitchen',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/1076/1076745.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Dryer',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/899/899061.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Hair dryer',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/1076/1076745.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Iron',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/1609/1609177.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'TV',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/1609/1609177.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Fireplace',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/1609/1609177.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Breakfast included',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/899/899061.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'On site rental car',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/1609/1609177.svg',
+								'alt' => 'alt text',
+							],
+						],
+						[
+							'title' => 'Pet friendly',
+							'image' => [
+								'src' => 'https://image.flaticon.com/icons/svg/899/899061.svg',
+								'alt' => 'alt text',
+							],
+						],
+					],
+				],
+			],
 		],
 	],
 ])

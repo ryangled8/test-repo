@@ -84,6 +84,7 @@
 									:class="[
 										'text-xl mx-10 no-underline text-white',
 										'md:text-4xl',
+										'hover:text-brand-primary',
 									]"
 									:href="item.url"
 									v-text="item.title"

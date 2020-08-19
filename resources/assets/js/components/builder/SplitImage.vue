@@ -26,7 +26,7 @@
 					<h1
 						:class="[
 							'text-xxs uppercase tracking-wide pb-6 font-bold',
-							'text-brand-blue',
+							'text-brand-primary',
 						]"
 						v-html="$props.subtitle"
 					/>
@@ -118,12 +118,12 @@
 			},
 
 			ctaGallery: {
-				type: String,
+				type: Object,
 				default: null,
 			},
 
 			ctaBook: {
-				type: String,
+				type: Object,
 				default: null,
 			},
 

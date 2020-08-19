@@ -48,7 +48,7 @@
 				<h2
 					:class="[
 						'text-xxs uppercase tracking-wide pb-8 pt-4 font-bold',
-						'text-brand-blue',
+						'text-brand-primary',
 					]"
 					v-text="$props.subtitle"
 				/>
@@ -63,7 +63,7 @@
 
 				<a
 					:class="[
-						'text-xs text-brand-blue font-bold',
+						'text-xs text-brand-primary font-bold',
 					]"
 					:href="$props.link.url"
 					v-text="$props.link.title"
