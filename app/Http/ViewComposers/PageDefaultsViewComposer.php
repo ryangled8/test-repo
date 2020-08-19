@@ -97,20 +97,20 @@ class PageDefaultsViewComposer extends BaseViewComposer
 			'site_footer' => [
 				'nav' => [
 					[
-						'title' => 'Shop',
+						'title' => 'Book your stay',
 						'url' => route('templates.show', 'food'),
 					],
 					[
-						'title' => 'News',
+						'title' => 'Our home',
 						'url' => route('templates.show', 'drink'),
 					],
 					[
-						'title' => 'About',
-						'url' => route('templates.show', 'book'),
+						'title' => 'Our story',
+						'url' => route('templates.show', 'food'),
 					],
 					[
-						'title' => 'Contact',
-						'url' => route('templates.show', 'contact'),
+						'title' => 'Contact us',
+						'url' => route('templates.show', 'drink'),
 					],
 				],
 			],
